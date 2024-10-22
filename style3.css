@@ -1,0 +1,74 @@
+:root {
+    --yellow: rgb(214, 195, 48);
+    --main: rgb(27, 21, 64);
+    --acc: rgb(187, 38, 193);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    background-color: var(--main);
+    border: none;
+    border-bottom: 1px solid var(--acc);
+}
+
+.data {
+    font-weight: 700;
+}
+
+.header-custom {
+    background-image: url(/foto/bg-1.jpg);
+}
+
+.section2-custom {
+    background-color: var(--main);
+}
+
+.section3-custom {
+    min-height: 70vh;
+    background-image: url(/foto/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section4-custom {
+    min-height: 70vh;
+    background-image: url(/foto/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-custom {
+    background-color: #2A0F55;
+    padding: 70px 20px;
+    top: 100px;
+}
+
+.btn-custom {
+    border: 1px solid var(--yellow);
+}
+
+.btn-custom:hover {
+    background-color: var(--yellow);
+    color: black;
+    transition: 0.5s;
+}
+
+.btn-custom-form {
+    background-color: var(--yellow);
+}
+
+.bi-calendar2-week,
+.bt-calendar2-week {
+    color: var(--yellow);
+}
+
+.calendar-form {
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
+}

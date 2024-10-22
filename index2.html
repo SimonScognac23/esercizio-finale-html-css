@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Impostazione del charset per il supporto dei caratteri -->
+    <meta charset="utf-8">
+
+    <!-- Impostazione della viewport per garantire la reattività su dispositivi mobili -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Titolo della pagina che apparirà sulla scheda del browser -->
+    <title>Bootstrap demo</title>
+
+    <!-- Collegamenti ai font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Collegamenti aggiuntivi ai font Google per Montserrat, Poppins e Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Collegamento al file CSS di Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Collegamento alle icone di Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+
+    <!-- Collegamento al foglio di stile personalizzato -->
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+
+    <main>
+        <!-- Sezione dell'intestazione principale che occupa tutta la larghezza del viewport -->
+        <header class="container-fluid">
+            <div class="row min-vh-100 justify-content-center align-items-center header-custom">
+
+                <!-- Colonna sinistra: contenuto testuale e logo -->
+                <div class="col-12 col-md-4 text-white">
+
+                    <!-- Immagine del logo -->
+                    <img src="/foto/aulab-logo_y.png" alt="Logo" class="img-fluid w-25 mb-5">
+
+                    <!-- Testo di presentazione -->
+                    <p>WEBINAR GRATUITO</p>
+                    <h1>Metti le mani al codice divertendoti</h1>
+                    <p>Scopri come si sviluppa un videogame anni 2000</p>
+
+                    <!-- Sezione con icona e data -->
+                    <div class="d-flex my-5">
+                        <i class="bi bi-calendar2-week h1 me-2"></i>
+                        <div>
+                            <h3 class="m-0 data">25 Luglio 2023</h3>
+                            <p class="m-0">ora 18.30</p>
+                        </div>
+                    </div>
+
+                    <!-- Bottone per l'iscrizione -->
+                    <button class="btn rounded-pill px-4 py-3 text-white btn-custom">ISCRIVITI GRATUITAMENTE</button>
+                </div>
+
+                <!-- Colonna destra: immagine principale (Hero Image) -->
+                <div class="col-12 col-md-4">
+                    <img src="/foto/game arcade.png" alt="Hero Image" class="img-fluid">
+                </div>
+            </div>
+        </header>
+    </main>
+
+
+    <!-- Sezione con immagine e contenuto testuale -->
+    <section
+        class="container-fluid mt-0 px-0 min-vh-100 d-flex align-items-center justify-content-center section2-custom">
+        <div class="row g-2 w-100 mx-0">
+            <!-- Layout a colonne con spaziatura ridotta tra le colonne -->
+
+            <!-- Colonna sinistra: immagine responsive centrata -->
+            <figure class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                <img src="/foto/ico-gaming-def.png" class="img-fluid w-50 w-md-75" alt="Foto videogame">
+            </figure>
+
+            <!-- Colonna destra: contenuto testuale responsive -->
+            <article class="col-lg-5 col-md-6 col-sm-12 text-white d-flex flex-column justify-content-center">
+                <header>
+                    <!-- Titolo del testo -->
+                    <h2 class="text-center text-md-start fs-3 fs-md-2">
+                        Impara le basi di HTML, CSS, Javascript e PHP in modo semplice e divertente
+                    </h2>
+                </header>
+
+                <!-- Paragrafo introduttivo con statistiche e contesto -->
+                <p class="text-center text-md-start fs-6">
+                    Se da un lato l'Ocse evidenzia per l'Italia un tasso di disoccupazione giovanile in aumento dal
+                    28,7% pre-pandemia al 33,8% nel Gennaio del 2021, dall'altro l'Osservatorio delle Competenze
+                    Digitali
+                    stima che nel nostro paese c'è una richiesta di oltre 100.000 professionisti nel settore tech.
+                    Le aziende sono alla continua ricerca di personale in ambito IT per accelerare il processo di
+                    trasformazione digitale, ma non ci sono abbastanza candidati formati per soddisfare la domanda.
+                </p>
+
+                <!-- Paragrafo che invita a partecipare al webinar -->
+                <p class="text-center text-md-start fs-6">
+                    Vieni a scoprire come imparare a programmare con il nostro webinar online gratuito, mettendo le mani
+                    sul codice e programmando insieme a noi un vero esempio di retrogaming, un videogioco anni 2000.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+
+        <!-- Sezione centrale con il pulsante per aprire il modal -->
+        <div class="row justify-content-center py-5 text-white section3-custom">
+
+            <!-- Colonna centrale con il form di iscrizione al webinar -->
+            <div class="col-12 col-md-4 modal-custom form-custom rounded-4 position-relative">
+                <h2>Iscriviti gratuitamente <br> al webinar online</h2>
+
+                <!-- Sezione con icona del calendario e data -->
+                <div class="d-flex my-5">
+                    <i class="bi bi-calendar2-week calendar-form h1 me-2 text-white"></i>
+                    <div>
+                        <h3 class="m-0 data">25 Luglio 2023</h3>
+                        <p class="m-0">ora 18.30</p>
+                    </div>
+                </div>
+
+                <!-- Form di iscrizione con campi nome, cognome, email e numero di telefono -->
+                <form class="row">
+
+                    <!-- Campo nome -->
+                    <div class="col-12">
+                        <input type="text" class="w-100 my-3" placeholder="nome">
+                    </div>
+
+                    <!-- Campo cognome -->
+                    <div class="col-12">
+                        <input type="text" class="w-100 my-3" placeholder="cognome">
+                    </div>
+
+                    <!-- Campo email -->
+                    <div class="col-12">
+                        <input type="email" class="w-100 my-3" placeholder="E-mail">
+                    </div>
+
+                    <!-- Campo nazione -->
+                    <div class="col-4">
+                        <input type="text" class="w-100 my-3" placeholder="Italia">
+                    </div>
+
+                    <!-- Campo prefisso telefonico -->
+                    <div class="col-8">
+                        <input type="text" class="w-100 my-3" placeholder="+39">
+                    </div>
+
+                    <!-- Checkbox per accettare termini e condizioni -->
+                    <div class="col-12">
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="examplecheck1">
+                            <label class="form-check-label" for="examplecheck1">Accetto termini e condizioni (GDPR) -
+                                Leggi qui *</label>
+                        </div>
+                    </div>
+
+                    <!-- Pulsante per l'iscrizione gratuita -->
+                    <div class="col-12">
+                        <button class="btn rounded-pill px-4 py-3 btn-custom-form w-100">ISCRIVITI
+                            GRATUITAMENTE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="section2-custom min-vh-100 d-flex align-items-center justify-content-center m-0 p-0">
+        <section id="card" class="container">
+            <div class="row justify-content-center g-4 mt-0">
+
+                <!-- Colonna per la foto con immagine ridimensionata -->
+                <div class="col-lg-6 col-md-6 col-12 text-center mb-3">
+                    <img src="/foto/logo-aulab-futur.png" class="img-fluid w-75" alt="Logo Aulab">
+                </div>
+
+                <!-- Colonna per il secondo testo con contenuto testuale allineato a sinistra -->
+                <div class="col-lg-6 col-md-6 col-12 text-white text-start d-flex align-items-center">
+
+
+                    <p class="card-text mb-0 fs-7">
+                        <span class="text-warning">Chi è aulab</span><br>
+                        Con i nostri corsi abbiamo aiutato più di <strong>10.000 studenti e studentesse</strong> a
+                        muovere i primi passi nel mondo digital & tech. Nel 2016 abbiamo lanciato
+                        l'Hackademy, la prima scuola di coding in Italia con un metodo strutturato e
+                        registrato che forma in breve tempo le figure professionali più richieste dal mercato del
+                        lavoro.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Sezione con le colonne per testo e immagine -->
+    <section class="section4-custom bg-carousel min-vh-100 m-0 d-flex align-items-center justify-content-center">
+        <div class="container-fluid">
+            <!-- Contenitore fluido per estendere la larghezza -->
+            <div class="row justify-content-center align-items-center gx-2 text-center">
+                <!-- Riga con riduzione dello spazio tra le colonne tramite gx-2 -->
+
+                <!-- Colonna per il testo dello speaker -->
+                <div class="col-md-5 col-12 d-flex justify-content-end ps-md-3 mt-5 mt-md-0">
+                    <!-- Colonna che contiene il testo con margine superiore per mobile, spazio personalizzato -->
+                    <div class="w-100 w-md-75 p-4 text-start">
+                        <h2 class="text-white">Lo speaker</h2>
+                        <h3 class="text-warning">Marco Insabato</h3>
+                        <p class="lead text-white">
+                            Dopo aver completato l'Hackademy è entrato a far parte del team education di aulab, prima
+                            come tutor e poi come docente. Insegna principalmente <strong>Front-end</strong> ma è
+                            appassionato di tutto ciò che riguarda la programmazione. Si è specializzato in Javascript
+                            insegnandolo e lavorando su numerosi progetti di sviluppo.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Colonna per l'immagine dello speaker -->
+                <div class="col-md-5 col-12 d-flex justify-content-start mt-4 mt-md-0">
+                    <!-- Colonna per l'immagine con margine superiore per mobile, allineamento a sinistra -->
+                    <img src="/foto/picture-marco-insabato-3.png" class="img-fluid w-50 w-md-50" alt="Marco Insabato">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
