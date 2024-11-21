@@ -16,12 +16,14 @@ Questo progetto evidenzia la mia capacità di lavorare con framework come Bootst
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 HTML
+
 Main Header: It includes a logo, a promotional title, a brief description, and a "hero" image. I used a grid layout with Bootstrap to ensure a responsive design, placing text content alongside a representative image.
 Description Section: A combination of textual content and images, focusing on teaching programming languages and highlighting the importance of the tech industry.
 Registration Form: An interactive form that includes fields for first name, last name, email, and phone number, along with a checkbox to accept terms of service. I used Bootstrap's grid layout to optimize the organization of these fields.
 Informative Sections: Additional areas provide information about the school, the courses offered, and a presentation of the speaker, using images and text to make the content more engaging.
 
 CSS
+
 Style Customization: I defined CSS variables for the project's primary colors, ensuring visual consistency. The sections are styled with background images optimized for a responsive design.
 Button Animations: Buttons feature hover effects that enhance interactivity, with smooth color changes and transitions.
 Section Design: I applied backgrounds, padding, and alignments to create a clean and readable layout. Images are optimized for different resolutions using classes like img-fluid.
